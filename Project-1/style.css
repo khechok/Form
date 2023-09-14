@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0px;
+   font-family: Arial, sans-serif;
+   box-sizing: border-box;
+   background-color: rgb(235, 201, 159);
+}
+
+
+
+.main-page,
+.main-tittle {
+   padding-top: 150px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+
+
+
+}
+
+a:link,
+a:visited {
+   display: inline-block;
+   text-decoration: none;
+   background-color: rgb(255, 255, 255);
+   color: rgb(12, 12, 12);
+   border: none;
+   padding: 12px 40px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+a:hover {
+   background-color: black;
+   color: rgb(255, 255, 255);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>feedback form</title>
+   <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+      fieldset {
+         width: 2em;
+         background-color: whitesmoke;
+         margin: auto;
+      }
+   </style>
+</head>
+
+<body>
+
+   <div class="main-container">
+      <h1 align="center">Feedback Form</h1>
+      <hr>
+      <div class="container">
+         <fieldset>
+            <form id="form" class="form" autocomplete="off">
+               <div class="form-control"><br>
+                  <label for="fullname">Full Name</label><br>
+                  <input type="text" id="fullname" placeholder="Enter Your Name">
+               </div>
+               <div class="form-control"> <br>
+                  <label for="email">Email</label> <br>
+                  <input type="text" id="emial" placeholder="enter your email">
+               </div>
+               <div class="form-control"><br>
+                  <label for="Department">Department</label><br>
+                  <select name="Department" id="department">
+                     <option value="sales">Sales</option>
+                     <option value="Finance">Finance</option>
+                     <option value="Associate">Associate</option>
+                     <option value="Attorney">Attorney</option>
+                     <option value="Technician">Technician</option>
+                     <option value="Admin">Admin</option>
+                     <option value="Peon">Peon</option>
+                  </select>
+               </div>
+               <div class="form-control">
+                  <br>
+                  <lable for="satisfactory">SATISFACTORY FACTOR OF CURRENT MANAGEMENT.</lable>
+                  <br>
+                  <input type="radio" id="satisfactory" name="satisfactory_value" value="1">
+                  <label for="satisfactory">1️⃣ (Very good)</label><br>
+                  <input type="radio" id="satifactory" name="satisfactory_value" value="2">
+                  <lable for="satisfactory">2️⃣ (Good)</lable><br>
+                  <input type="radio" id="satisfactory" name="satisfactory_value" value="3">
+                  <lable for="satifactory">3️⃣ (Satifactory)</lable><br>
+                  <input type="radio" id="satifactory" name="satisfactory_value" value="4">
+                  <lable for="satifactory">4️⃣ (Need improvment)</lable><br>
+                  <input type="radio" id="satifactory" name="satisfactory_value" value="5">
+                  <lable for="satifactory">5️⃣ (Bad)</lable><br>
+               </div>
+
+               <div><br>
+                  <label for="feedback">Feedback:</label><br>
+                  <textarea id="feedback" name="feedback" rows="10" cols="50"
+                     placeholder="Here goes your feedback..."></textarea>
+               </div>
+               <div>
+                  <br>
+                  <lable for="privacy policy">Agree to the Privacy policy.</lable>
+                  <input type="checkbox" id="privacy policy" name="pivacy policy" value="agreed">
+               </div>
+               <div align="center">
+                  <br>
+                  <button type="submit">submit</button>
+               </div>
+            </form>
+         </fieldset>
+      </div>
+<script src="result.js"></script>
+
+</body>
+
+</html>
